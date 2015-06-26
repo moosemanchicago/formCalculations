@@ -1,0 +1,14 @@
+{
+	"items":	[
+		{"type":"Hot Canapes", "name":"Ginger-soy soaked shrimp in a sesame crust", "price":33, "description":"","servings":0},
+		{"type":"Hot Canapes", "name":"Chicken satay with spicy peanut sauce", "price":33, "description":"","servings":0},
+		{"type":"Hot Canapes", "name":"Vegetable spring roll with spiced plum sauce", "price":30, "description":"","servings":0},
+		{"type":"Hot Canapes", "name":"Smoked paprika, chicken & roasted corn fritter", "price":33, "description":"","servings":0},
+		{"type":"Hot Canapes", "name":"Baby cheeseburger, smoked cheddar, tomato, pickle", "price":34, "description":"","servings":0},
+		{"type":"Hot Canapes", "name":"Pork & beef meatballs, smoked red pepper dip", "price":33, "description":"","servings":0},
+		{"type":"Hot Canapes", "name":"Arc steak spice grilled flank poutine", "price":32, "description":"","servings":0},
+		{"type":"Hot Canapes", "name":"Fried Halloumi, tomato-horseradish chutney", "price":33, "description":"","servings":0},
+		{"type":"Hot Canapes", "name":"Fish cake, sumac-cilantro aioli", "price":32, "description":"","servings":0},
+		{"type":"Hot Canapes", "name":"Chorizo corn dog, house ketchup", "price":32, "description":"","servings":0}
+	]
+}

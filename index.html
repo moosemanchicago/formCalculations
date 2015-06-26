@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html data-ng-app="CalculationForm">
+<head>
+	<meta charset="UTF-8">
+
+	<title>Arc Hotel</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<script type="text/javascript" src="js/angular/angular.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+
+</head>
+
+	<body data-ng-controller="MainController">
+
+		<header class="ribbon">
+			<section class="plaque">
+				Reception Package Form
+			</section>
+			<section class="communicationArea">
+				<div class="title">Customize Your Own Reception Package</div>
+				<div class="message">Design your full day of culinary delights. Choose from the selections below and scedule your seating time. Prices are per person unless otherwise noted.
+				</div>
+			</section>
+		</header>
+		<h2 class="foodCategory">ARC RECEPTION - HOT CANAPES </h2>
+		<div class="stipulation">Minimum order of 2 dozen per type required</div>
+		<span class="foodItem" ng-repeat="item in retrievedData">
+			<span class="menuDescription">
+				{{item.name}} - <h3> ${{item.price}} per serving</h3>
+			</span>
+			<span class="menuPricing">
+				<input class="servings" type="text" name="" ng-model="item.servings" />
+				$<input class="calculatedCost" type="text" name="" value="{{item.price * item.servings}}" />
+
+			</span>
+		</span>
+
+
+	</body>
+
+</html>
