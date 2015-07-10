@@ -12,15 +12,15 @@
 
 			var promise = $http.get('data.json');
 			var gatherDataComplete = function(response){
-				$scope.retrievedData = response.data.items;
+				$scope.retrievedData = response.data;
 
 				console.log($scope.retrievedData);
-			}
+			};
 
 			promise.then(gatherDataComplete, error);
 
-			$scope.servings = 0;
-		};
+			$scope.Math = window.Math;
+		}
 
 
 
