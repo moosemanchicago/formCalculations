@@ -1,45 +1,45 @@
 {
 	"hotCanapes":	[
-		{"type":"Hot Canapes", "name":"Ginger-soy soaked shrimp in a sesame crust", "price":33, "description":"","servings":0},
-		{"type":"Hot Canapes", "name":"Chicken satay with spicy peanut sauce", "price":33, "description":"","servings":0},
-		{"type":"Hot Canapes", "name":"Vegetable spring roll with spiced plum sauce", "price":30, "description":"","servings":0},
-		{"type":"Hot Canapes", "name":"Smoked paprika, chicken & roasted corn fritter", "price":33, "description":"","servings":0},
-		{"type":"Hot Canapes", "name":"Baby cheeseburger, smoked cheddar, tomato, pickle", "price":34, "description":"","servings":0},
-		{"type":"Hot Canapes", "name":"Pork & beef meatballs, smoked red pepper dip", "price":33, "description":"","servings":0},
-		{"type":"Hot Canapes", "name":"Arc steak spice grilled flank poutine", "price":32, "description":"","servings":0},
-		{"type":"Hot Canapes", "name":"Fried Halloumi, tomato-horseradish chutney", "price":33, "description":"","servings":0},
-		{"type":"Hot Canapes", "name":"Fish cake, sumac-cilantro aioli", "price":32, "description":"","servings":0},
-		{"type":"Hot Canapes", "name":"Chorizo corn dog, house ketchup", "price":32, "description":"","servings":0}
+		{"id":1, "type":"Hot Canapes", "name":"Ginger-soy soaked shrimp in a sesame crust", "price":33, "description":"","servings":0},
+		{"id":2, "type":"Hot Canapes", "name":"Chicken satay with spicy peanut sauce", "price":33, "description":"","servings":0},
+		{"id":3, "type":"Hot Canapes", "name":"Vegetable spring roll with spiced plum sauce", "price":30, "description":"","servings":0},
+		{"id":4, "type":"Hot Canapes", "name":"Smoked paprika, chicken & roasted corn fritter", "price":33, "description":"","servings":0},
+		{"id":5, "type":"Hot Canapes", "name":"Baby cheeseburger, smoked cheddar, tomato, pickle", "price":34, "description":"","servings":0},
+		{"id":6, "type":"Hot Canapes", "name":"Pork & beef meatballs, smoked red pepper dip", "price":33, "description":"","servings":0},
+		{"id":7, "type":"Hot Canapes", "name":"Arc steak spice grilled flank poutine", "price":32, "description":"","servings":0},
+		{"id":8, "type":"Hot Canapes", "name":"Fried Halloumi, tomato-horseradish chutney", "price":33, "description":"","servings":0},
+		{"id":9, "type":"Hot Canapes", "name":"Fish cake, sumac-cilantro aioli", "price":32, "description":"","servings":0},
+		{"id":10, "type":"Hot Canapes", "name":"Chorizo corn dog, house ketchup", "price":32, "description":"","servings":0}
 	],
 	"coldCanapes":	[
-		{"type":"Cold Canapes", "name":"No Name", "price":30, "description":"Grape tomato, dried apricot, Kalamata & basil bruscetta, grilled flat bread","servings":0},
-		{"type":"Cold Canapes", "name":"No Name", "price":34, "description":"Orange-truffle foie gras terrine on toasted pretzel bread, marmalade, Maldon","servings":0},
-		{"type":"Cold Canapes", "name":"No Name", "price":30, "description":"Anis marinated watermelon slab, crispy Serrano","servings":0},
-		{"type":"Cold Canapes", "name":"No Name", "price":33, "description":"House duck prosciutto, aged cheddar biscuit, fig jam","servings":0},
-		{"type":"Cold Canapes", "name":"No Name", "price":34, "description":"Tuna crudo, candied fennel, red onion slaw, toasted panko","servings":0},
-		{"type":"Cold Canapes", "name":"No Name", "price":30, "description":"Spicy eggplant caviar roll","servings":0},
-		{"type":"Cold Canapes", "name":"No Name", "price":33, "description":"Cured & maple torched raw Pacific salmon, pickled red onion, green peppercorn yogurt, toasted cashews","servings":0},
-		{"type":"Cold Canapes", "name":"No Name", "price":34, "description":"Le Coprin mushroom, chèvre, balsamic & toasted fennel seed tart, micro greens","servings":0}
+		{"id":11, "type":"Cold Canapes", "name":"No Name", "price":30, "description":"Grape tomato, dried apricot, Kalamata & basil bruscetta, grilled flat bread","servings":0},
+		{"id":12, "type":"Cold Canapes", "name":"No Name", "price":34, "description":"Orange-truffle foie gras terrine on toasted pretzel bread, marmalade, Maldon","servings":0},
+		{"id":13, "type":"Cold Canapes", "name":"No Name", "price":30, "description":"Anis marinated watermelon slab, crispy Serrano","servings":0},
+		{"id":14, "type":"Cold Canapes", "name":"No Name", "price":33, "description":"House duck prosciutto, aged cheddar biscuit, fig jam","servings":0},
+		{"id":15, "type":"Cold Canapes", "name":"No Name", "price":34, "description":"Tuna crudo, candied fennel, red onion slaw, toasted panko","servings":0},
+		{"id":16, "type":"Cold Canapes", "name":"No Name", "price":30, "description":"Spicy eggplant caviar roll","servings":0},
+		{"id":17, "type":"Cold Canapes", "name":"No Name", "price":33, "description":"Cured & maple torched raw Pacific salmon, pickled red onion, green peppercorn yogurt, toasted cashews","servings":0},
+		{"id":18, "type":"Cold Canapes", "name":"No Name", "price":34, "description":"Le Coprin mushroom, chèvre, balsamic & toasted fennel seed tart, micro greens","servings":0}
 	],
 	"dessertCanapes":	[
-		{"type":"Dessert Canapes", "name":"Maple-white chocolate cheesecake tarts", "price":33, "description":"","servings":0},
-		{"type":"Dessert Canapes", "name":"Assorted truffles", "price":33, "description":"","servings":0},
-		{"type":"Dessert Canapes", "name":"Baby tarts with vanilla custard & fresh berries", "price":33, "description":"","servings":0},
-		{"type":"Dessert Canapes", "name":"Toffee-mocha brownie cromesqui", "price":33, "description":"","servings":0},
-		{"type":"Dessert Canapes", "name":"S’mores in a shot glass", "price":33, "description":"","servings":0},
-		{"type":"Dessert Canapes", "name":"Baby lemon-poppy seed tarts", "price":33, "description":"","servings":0}
+		{"id":19, "type":"Dessert Canapes", "name":"Maple-white chocolate cheesecake tarts", "price":33, "description":"","servings":0},
+		{"id":20, "type":"Dessert Canapes", "name":"Assorted truffles", "price":33, "description":"","servings":0},
+		{"id":21, "type":"Dessert Canapes", "name":"Baby tarts with vanilla custard & fresh berries", "price":33, "description":"","servings":0},
+		{"id":22, "type":"Dessert Canapes", "name":"Toffee-mocha brownie cromesqui", "price":33, "description":"","servings":0},
+		{"id":23, "type":"Dessert Canapes", "name":"S’mores in a shot glass", "price":33, "description":"","servings":0},
+		{"id":24, "type":"Dessert Canapes", "name":"Baby lemon-poppy seed tarts", "price":33, "description":"","servings":0}
 	],
 	"platters":	[
-		{"type":"Platter", "name":"No Name", "price":6, "description":"Seasonal fresh sliced fruit","servings":0},
-		{"type":"Platter", "name":"No Name", "price":6, "description":"Fresh cut vegetables: choice of red curry-cilantro yogurt or herb & lemon aioli","servings":0},
-		{"type":"Platter", "name":"No Name", "price":8, "description":"Assorted charcuterie platter (2 oz. per person), condiments & crostini","servings":0},
-		{"type":"Platter", "name":"No Name", "price":7, "description":"Assorted cheese platter (2 oz. per person), dried fruit, nuts & crostini","servings":0},
-		{"type":"Platter", "name":"No Name", "price":4, "description":"House made salsa, blue corn chips","servings":0},
-		{"type":"Platter", "name":"No Name", "price":6, "description":"Charred scallion & red pepper hummus with herb toasted pita","servings":0}
+		{"id":25, "type":"Platter", "name":"No Name", "price":6, "description":"Seasonal fresh sliced fruit","servings":0},
+		{"id":26, "type":"Platter", "name":"No Name", "price":6, "description":"Fresh cut vegetables: choice of red curry-cilantro yogurt or herb & lemon aioli","servings":0},
+		{"id":27, "type":"Platter", "name":"No Name", "price":8, "description":"Assorted charcuterie platter (2 oz. per person), condiments & crostini","servings":0},
+		{"id":28, "type":"Platter", "name":"No Name", "price":7, "description":"Assorted cheese platter (2 oz. per person), dried fruit, nuts & crostini","servings":0},
+		{"id":29, "type":"Platter", "name":"No Name", "price":4, "description":"House made salsa, blue corn chips","servings":0},
+		{"id":30, "type":"Platter", "name":"No Name", "price":6, "description":"Charred scallion & red pepper hummus with herb toasted pita","servings":0}
 	],
 	"beverages":	[
-		{"type":"Coffee", "name":"Bridgehead Coffee", "price":3.50, "description":"","servings":0},
-		{"type":"Tea", "name":"Tazo Tea", "price":3.50, "description":"","servings":0},
-		{"type":"Bar", "name":"888", "price":888, "description":"888","servings":888}
+		{"id":31, "type":"Coffee", "name":"Bridgehead Coffee", "price":3.50, "description":"","servings":0},
+		{"id":32, "type":"Tea", "name":"Tazo Tea", "price":3.50, "description":"","servings":0},
+		{"id":33, "type":"Bar", "name":"888", "price":888, "description":"888","servings":888}
 	]
 }

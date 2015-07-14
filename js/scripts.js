@@ -14,12 +14,17 @@
 			var gatherDataComplete = function(response){
 				$scope.retrievedData = response.data;
 
-				console.log($scope.retrievedData);
+				// console.log($scope.retrievedData);
 			};
 
 			promise.then(gatherDataComplete, error);
 
-			$scope.Math = window.Math;
+			$scope.totalCalculatedByController = function(){
+
+					return hotCanapesTotal;
+
+
+			};
 		}
 
 

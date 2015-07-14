@@ -25,7 +25,11 @@
 			</section>
 		</header>
 
-{{Math.floor(4.99)}}
+		<span class="total" ng-repeat="amount in retrievedData.hotCanapes">
+		{{amount.servings * amount.price}}
+			<input class="totalCost" type="text" name="" value="{{amount.servings}}" />
+		</span>
+
 		<h2 class="foodCategory">ARC RECEPTION - HOT CANAPES </h2>
 		<div class="stipulation">Minimum order of 2 dozen per type required</div>
 		<span class="foodItem" ng-repeat="item in retrievedData.hotCanapes">
@@ -33,8 +37,8 @@
 				{{item.name}} - <h3> ${{item.price}} per dozen</h3>
 			</span>
 			<span class="menuPricing">
-				<input class="servings" type="text" name="" ng-model="item.servings" />
-				$<input class="calculatedCost" type="text" name="" value="{{item.price * item.servings}}" />
+				<input class="servings" type="text" name="desiredAmount_{{item.id}}" ng-model="item.servings" />
+				$<input class="calculatedCost" type="text" name="aggregateCost_{{item.id}}" value="{{item.price * item.servings}}" />
 
 			</span>
 		</span>
@@ -43,11 +47,11 @@
 		<div class="stipulation">Minimum order of 3 dozen per type required</div>
 		<span class="foodItem" ng-repeat="item in retrievedData.coldCanapes">
 			<span class="menuDescription">
-				{{item.name}} - <h3> ${{item.price}} per dozen</h3>
+				{{item.description}} - <h3> ${{item.price}} per dozen</h3>
 			</span>
 			<span class="menuPricing">
-				<input class="servings" type="text" name="" ng-model="item.servings" />
-				$<input class="calculatedCost" type="text" name="" value="{{item.price * item.servings}}" />
+				<input class="servings" type="text" name="desiredAmount_{{item.id}}" ng-model="item.servings" />
+				$<input class="calculatedCost" type="text" name="aggregateCost_{{item.id}}" value="{{item.price * item.servings}}" />
 
 			</span>
 		</span>
@@ -59,8 +63,8 @@
 				{{item.name}} - <h3> ${{item.price}} per dozen</h3>
 			</span>
 			<span class="menuPricing">
-				<input class="servings" type="text" name="" ng-model="item.servings" />
-				$<input class="calculatedCost" type="text" name="" value="{{item.price * item.servings}}" />
+				<input class="servings" type="text" name="desiredAmount_{{item.id}}" ng-model="item.servings" />
+				$<input class="calculatedCost" type="text" name="aggregateCost_{{item.id}}" value="{{item.price * item.servings}}" />
 
 			</span>
 		</span>
@@ -68,11 +72,11 @@
 		<h2 class="foodCategory">ARC RECEPTION - PLATTERS </h2>
 		<span class="foodItem" ng-repeat="item in retrievedData.platters">
 			<span class="menuDescription">
-				{{item.name}} - <h3> ${{item.price}} per dozen</h3>
+				{{item.description}} - <h3> ${{item.price}} per dozen</h3>
 			</span>
 			<span class="menuPricing">
-				<input class="servings" type="text" name="" ng-model="item.servings" />
-				$<input class="calculatedCost" type="text" name="" value="{{item.price * item.servings}}" />
+				<input class="servings" type="text" name="desiredAmount_{{item.id}}" ng-model="item.servings" />
+				$<input class="calculatedCost" type="text" name="aggregateCost_{{item.id}}" value="{{item.price * item.servings}}" />
 
 			</span>
 		</span>
@@ -83,11 +87,16 @@
 				{{item.name}} - <h3> ${{item.price}} per dozen</h3>
 			</span>
 			<span class="menuPricing">
-				<input class="servings" type="text" name="" ng-model="item.servings" />
-				$<input class="calculatedCost" type="text" name="" value="{{item.price * item.servings}}" />
+				<input class="servings" type="text" name="desiredAmount_{{item.id}}" ng-model="item.servings" />
+				$<input class="calculatedCost" type="text" name="aggregateCost_{{item.id}}" value="{{item.price * item.servings}}" />
 
 			</span>
 		</span>
+
+
+
+
+
 
 
 	</body>
